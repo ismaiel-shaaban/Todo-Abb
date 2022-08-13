@@ -1,0 +1,79 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: cornflowerblue;
+  color: bisque;
+}
+
+.text-center{
+  text-align: center;
+}
+.container{
+  width: 60%;
+  margin: 10% auto;
+}
+
+.ListItem{
+  background-color: aliceblue;
+  color:cornflowerblue ;
+}
+
+.ListItem p{
+  text-align: center;
+  padding: 10px 0px;
+
+}
+.ListItem span{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 20px;
+  border: 0.3px solid #ccc;
+}
+
+.ListItem span.title {
+  background-color: rgba(20, 22, 22, 0.703);
+  color: white;
+}
+.ListItem span.name 
+{
+  width: 60%;
+}
+
+.ListItem span.age
+{
+  width: 25%;
+}
+.ListItem span.action
+{
+  width: 15%;
+}
+
+form input  {
+  padding: 10px;
+  background-color: #ebebeb;
+  border: 0.3px solid #ccc;
+
+}
+ 
+/* .addItem form .action{
+  width: 10%;
+  background-color: #2ebaee;
+  cursor: pointer;
+}
+
+.addItem form .text{
+  width: 60%;
+  background-color: #2ebaee;
+  
+}
+
+.addItem form .number{
+  width: 25%;
+  background-color: #2ebaee;
+  cursor: pointer;
+} */
